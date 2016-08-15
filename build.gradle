@@ -33,6 +33,10 @@ repositories {
     maven { url "http://repo.spring.io/snapshot" }
 }
 
+springBoot {
+    mainClass = "org.cloudfoundry.samples.music.Application"
+}
+
 dependencies {
     // Spring Boot
     compile "org.springframework.boot:spring-boot-starter-web"
